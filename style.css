@@ -41,7 +41,7 @@
       justify-content: center;
       align-items: center;
     
-    min-height: 100vh;
+    min-height: 130vh;
     }
     
     
@@ -53,22 +53,23 @@
     }
       .box{
         transform-style: preserve-3d;
-        animation: animate 5s ease-in-out infinite alternate;
+        animation: animate 5s alternate infinite;
       }
         span{
           background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
           text-transform: uppercase;
-          line-height: 0.76em;
+          line-height: 0.80em;
           position: absolute;
           color: var(--white);
           font-size: 3.5em;
-          white-space: nowrap;
+          white-space:nowrap;
           font-weight: bold;
-          padding: 0px 10px;
+          padding: 0px 15px;
           transform-style: preserve-3d;
           text-shadow: 0 10px 15px var(--first-shadow);
           transform: translate(-50%, -50%) rotateX(calc(var(--i) * 23deg)) translateZ(109px);
         }
+
           i{
             font-style: initial;
           }
